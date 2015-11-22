@@ -1,0 +1,104 @@
+div{
+    margin: 0; padding: 0;
+}
+
+div div{
+    position: relative;
+}
+
+#section{
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+}
+
+#logo{
+    width: 800px;
+    padding: 0 0 35px 0;
+}
+
+img{
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin-left: auto; margin-right: auto;
+}
+
+#search{
+    width: 584px;
+    height: 38px;
+    border: 1px solid #d8d8d8;
+    display: block;
+    margin: auto;    
+}
+
+input{
+    width: 500px;
+    height: 26px;
+    font: 16px arial, sans-serif;
+    display: inline;
+    padding: 6px 0 6px 6px;
+    border: none; 
+}
+
+#voice{
+    width: 17px;
+    height: 21px;
+    padding: 6px 15px 6px 0;
+    display: inline;
+    position: relative;
+    float: right;
+}
+
+#buttons{
+    width: 330px;
+    display: block;
+    margin: auto;  
+    position: relative;
+    top: 25px;
+}
+
+
+#but_search, #but_lucky{
+    height: 30px;
+    width: 160px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif; font-size: 13px; font-weight: bold;
+    color: #757575;
+}
+
+#but_search{
+    float: left;
+}
+
+#but_lucky{
+    float: right;
+}
+
+#links{
+    width: 310px;
+    display: block;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    top: 45px;
+
+}
+
+p{
+    display: inline;
+    font-family: arial, sans-serif; font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    padding: 0 4px 0;
+    text-decoration: none;
+    font-family: arial, sans-serif; font-size: 13px;
+}
