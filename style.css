@@ -6,36 +6,126 @@ div div{
     position: relative;
 }
 
+#header{
+    width: 100%; 
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.links{
+    float: right;
+    min-width: 220px;
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center
+}
+
+div.link1{
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 15px;
+}
+
+a.link1{
+    color: black;
+    padding: 0 5px 0;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+a.link1:hover{
+    text-decoration: underline;
+}
+
+.icons{
+    min-width: 114px;
+    position: relative;
+    display: flex;
+}
+
+.apps{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-image: url(icons.png);
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    opacity: .55;
+}
+
+.apps:hover{
+    opacity: 1;
+}
+
+.sign_cont{
+    padding-left: 15px;
+}
+
+.sign{
+    position: relative;
+    display: bloc;
+    text-align: left;
+    height: 30px;
+    background-color: rgb(67, 135,253);
+    border-radius: 2px
+}
+
+a.sign{
+    line-height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 #section{
     height: 500px;
     width: 800px;
     position: relative;
-    margin: auto;
-    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 198px;
 }
 
-#logo{
+div.logo{
     width: 800px;
-    padding: 0 0 35px 0;
+    padding: 0 0 25px 0;
+    display: flex;
+    align-content: center;
 }
 
-img{
+img.logo{
     height: 92px;
     width: 272px;
     display: block;
-    margin-left: auto; margin-right: auto;
+    margin: auto;
 }
 
 #search{
     width: 584px;
     height: 38px;
     border: 1px solid #d8d8d8;
-    display: block;
+    display: flex;
+    justify-content: flex-end;
     margin: auto;    
 }
 
+#search:hover{
+    border-color: darkgray;
+}
+
 input{
-    width: 500px;
+    width: 530px;
     height: 26px;
     font: 16px arial, sans-serif;
     display: inline;
@@ -47,13 +137,14 @@ input{
     width: 17px;
     height: 21px;
     padding: 6px 15px 6px 0;
-    display: inline;
+    display: block;
+    align-content: center;
     position: relative;
     float: right;
 }
 
 #buttons{
-    width: 330px;
+    width: 310px;
     display: block;
     margin: auto;  
     position: relative;
@@ -62,8 +153,8 @@ input{
 
 
 #but_search, #but_lucky{
-    height: 30px;
-    width: 160px;
+    height: 36px;
+    width: 150px;
     padding: 0px;
     text-align: center;
     vertical-align: middle;
@@ -71,6 +162,12 @@ input{
     background-color: #f2f2f2;
     font-family: arial, sans-serif; font-size: 13px; font-weight: bold;
     color: #757575;
+}
+
+#but_search:hover, #but_lucky:hover{
+    border-color: darkgray;
+    border: 1px solid darkgray;
+    color: black;
 }
 
 #but_search{
@@ -81,7 +178,7 @@ input{
     float: right;
 }
 
-#links{
+#link2{
     width: 310px;
     display: block;
     position: relative;
